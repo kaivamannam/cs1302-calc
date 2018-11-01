@@ -1,1 +1,3 @@
-# cs1302-calc
+# CSCI 1302 - Calc v2018.fa
+
+
