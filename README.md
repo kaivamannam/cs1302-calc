@@ -1,6 +1,6 @@
 # CSCI 1302 - Calc App v2018.fa
 
-![Roman Abacus](https://i.imgur.com/saX707m.jpg)
+![?](https://www.maa.org/sites/default/files/images/cms_upload/abacus250457.jpg)
 
 **TUE 2018-11-27 (NOV 27) @ 11:55 PM EST**.
 
