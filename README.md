@@ -1,6 +1,6 @@
 # CSCI 1302 - Calc App v2018.fa
 
-![Unrelated image from page 177 of "Punch" (1841)](https://i.imgur.com/7TdqL1v.jpg)
+![Roman Abacus](https://i.imgur.com/saX707m.jpg)
 
 **TUE 2018-11-27 (NOV 27) @ 11:55 PM EST**.
 
