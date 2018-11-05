@@ -179,6 +179,17 @@ point total. That is, they are all or nothing.
   
   The driver class should be `cs1302.calc.CalcApp`.
 
+  The three math implementations (one is provided) should be:
+
+  * `cs1302.calc.BasicMathOps` (basic implementation; provided)
+  * `cs1302.calc.RecursiveMathOps` (recursive implementation)
+  * `cs1302.calc.IterativeMathOps` (iterative implementation)
+
+  If you modify the following, then your project will not be graded:
+
+  * `cs1302.calc.MathOps` (interface)
+  * `cs1302.calc.MathOpsEvaluator` (class)
+
 * **(100 points) Development Environment:** This project must be implemented 
   in Java 8, and it *must compile and run* correctly on Nike using the specific
   version of Java 8 that is setup according to the instructions provided
