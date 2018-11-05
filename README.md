@@ -111,10 +111,34 @@ The actual functionality is tested using test cases.
 * **(20 points) User Interface**: Your application needs to have the
   following user interface components:
   
-  * **(5 points) Menu Bar**:
+  * **(5 points) Menu Bar**: Your application should have a menu bar
+    with a "File" menu. The only required menu item is an "Exit" item
+    that allows the user to exit the application.
 
+  * **(5 points) Expression & Result Text Fields**: Your application
+    should have two textfields, one where the expression will be built
+    as the user interacts with the buttons and one where the result is
+    places when the user clicks on the "Evaluate" button..
+
+  * **(5 points) Calculator Buttons**: Your application needs to have
+    buttons for the numbers zero (0) through (9) as well as a button
+    for each of the operations listed below. The name of each operation
+    is provided as well as the symbol(s) used to denote that operation
+    in an expression.:
+
+    * Add (`+`)
+    * Subtract (`-`)
+    * Multiply (`*`)
+    * Divide (`/`)
+    * Exponentiation (`^^`)
+    * Left Shift (`<<`)
+    * Right Shift (`>>`)
+    * Factorial (`!`)
+
+    The last operation, factorial, is interesting in that it only
+    takes a single operand; the rest take two.
     
-* **(100 points) Test Cases**: The bulk of this project will be graded
+* **( points) Test Cases**: The bulk of this project will be graded
   based on 50 JUnit test cases, each worth 2 points. This is the same as
   someone using the classes you wrote based purely on the interface
   definitions. If you implement the interface correctly, then you should
@@ -145,7 +169,7 @@ point total. That is, they are all or nothing.
   $ mvn compile
   ```
   
-  The driver class should be `cs1302.gallery.CalcApp`.
+  The driver class should be `cs1302.calc.CalcApp`.
 
 * **(100 points) Development Environment:** This project must be implemented 
   in Java 8, and it *must compile and run* correctly on Nike using the specific
