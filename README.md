@@ -138,6 +138,14 @@ The actual functionality is tested using test cases.
     The last operation, factorial, is interesting in that it only
     takes a single operand; the rest take two.
     
+  * **(5 points) Bit Toggle:** your application needs display a sequence of
+   clickable bits in standard order (i.e., most significant to least significant)
+   that shows the current binary representation of the result. When the result
+   changes, the visible binary should also change. Furthermore, the user should
+   be able to toggle (i.e., click) each bit on or off. When this is done, the
+   result should change accordingly. See the
+   [FAQ](#appendix---faq) for more details.
+    
 * **( points) Test Cases**: The bulk of this project will be graded
   based on 50 JUnit test cases, each worth 2 points. This is the same as
   someone using the classes you wrote based purely on the interface
