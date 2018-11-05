@@ -44,7 +44,46 @@ command while inside of your project directory.
 
 ## Project Description
 
-In this project, you will be ...
+In this project, you will develop a "programer's" calculator app in Java with 
+a graphical user interface (GUI) powered by JavaFX. You will be responsible for 
+designing and implementing the user interface for your project (following a few 
+guidelines). 
+
+### What is a "Programmer's" Calculator?
+
+There are four (4) characteristics that differentiate this app from a standard
+calculator.
+
+1. **Unsigned Integer Operations:** While standard calculator's perform operations
+   on real numbers, this "programmer's" calculator will be restricted to 
+   operations on unsigned (i.e., non-negative) integers. This means that all
+   inputs and outputs will be unsigned integers. This also means that operations
+   (e.g., division) will be integer operations. Additionally, this calculator will 
+   also support bit shifting operations.
+
+2. **Expression Evaluation:** While standard calculator's can only perform
+   one mathematical operation at a time, this "programmer's" calculator will
+   allow users to build multi-operaton expressions in a text field, then click
+   on an "Evaluate" button to have the calculator actually evaluate the
+   expression. The code evaluate an overally expression is already provided to
+   you, assuming you provide an implementation of an interface. See the
+   [FAQ](#appendix---faq) for more details.
+   
+2. **Implementation Toggle:** This "programmer's" calculator will provide a toggle
+   for three different underlying implementations of the `MathOps` interface, 
+   one of which is provided with the skeleton project. The three implementations 
+   are: basic, iterative, and recursive. This effectively provides three mutually 
+   exclusive modes for the calculator. The current mode dictates which implementation 
+   is passed to the code used for expression evaluation. See the
+   [FAQ](#appendix---faq) for more details.
+
+3. **Bit Toggle:** This "programmer's" calculator will display a sequence of
+   clickable bits in standard order (i.e., most significant to least significant)
+   that shows the current binary representation of the result. When the result
+   changes, the visible binary should also change. Furthermore, the user should
+   be able to toggle (i.e., click) each bit on or off. When this is done, the
+   result should change accordingly. See the
+   [FAQ](#appendix---faq) for more details.
 
 ### Suggested Reading
 
@@ -68,6 +107,12 @@ A functional requirement is *added* to your point total if satisfied.
 There will be no partial credit for any of the requirements that simply 
 require the presence of a method related a particular functionality. 
 The actual functionality is tested using test cases.
+
+* **(20 points) User Interface**: Your application needs to have the
+  following user interface components:
+  
+  * **(5 points) Menu Bar**:
+
     
 * **(100 points) Test Cases**: The bulk of this project will be graded
   based on 50 JUnit test cases, each worth 2 points. This is the same as
