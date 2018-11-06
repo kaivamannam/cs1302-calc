@@ -65,10 +65,12 @@ calculator.
 
 2. **Expression Evaluation:** While standard calculator's can only perform
    one mathematical operation at a time, this "programmer's" calculator will
-   allow users to build multi-operaton expressions in a text field, then click
-   on an "Evaluate" button to have the calculator actually evaluate the
-   expression. The code evaluate an overally expression is already provided to
-   you, assuming you provide an implementation of an interface. See the
+   allow users to build complex, multi-operaton expressions in a text field, 
+   then click on an "Evaluate" button to have the calculator actually evaluate the
+   expression. This application does not support expressions with parentheses.
+   The code to evaluate an overally expression is already provided to
+   you in `MathOpsEvaluator`, assuming you provide an implementation of 
+   the `MathOps` interface. See the
    [FAQ](#appendix---faq) for more details.
    
 2. **Implementation Toggle:** This "programmer's" calculator will provide a toggle
@@ -85,17 +87,6 @@ calculator.
    be able to toggle (i.e., click) each bit on or off. When this is done, the
    result should change accordingly. See the
    [FAQ](#appendix---faq) for more details.
-
-### Suggested Reading
-
-* LDC Ch. 9 (Polymorhism)
-* [Java Tutorial: Generics](https://docs.oracle.com/javase/tutorial/java/generics/index.html)
-
-### Learning Outcomes
-
-* Implement generic classes according to an interface (1302-LO1).
-* Utilitze inheritance and polymorphism in a software project (1302-LO3-LO4).
-* Test your implementation using unit tests (1302-LO9).
 
 ## Project Requirements & Grading
 
@@ -136,8 +127,16 @@ The actual functionality is tested using test cases.
     * Right Shift (`>>`)
     * Factorial (`!`)
 
-    The last operation, factorial, is interesting in that it only
-    takes a single operand; the rest take two.
+    Additionally, your application needs to have the following buttons:
+    
+    * Evaluate: Evaluates the expression using `MathOpsEvaluator` along
+      with an appropriate `MathOps` implementation corresponding to the
+      current implementation mode.
+      
+    * Backspace: Removes one non-whaitespace character from the current
+      expression, if applicable.
+      
+    * Clear: Clears the current expression.
     
   * **(5 points) Bit Toggle:** your application needs display a sequence of
    clickable bits in standard order (i.e., most significant to least significant)
@@ -147,18 +146,25 @@ The actual functionality is tested using test cases.
    result should change accordingly. See the
    [FAQ](#appendix---faq) for more details.
     
-* **( points) Test Cases**: The bulk of this project will be graded
-  based on 50 JUnit test cases, each worth 2 points. This is the same as
-  someone using the classes you wrote based purely on the interface
-  definitions. If you implement the interface correctly, then you should
-  pass the associated test cases. 
+* **(40 points) `cs1302.calc.RecursiveMathOps`**: Implement the `cs1302.calc.MathOps`
+  interface with this class. Each of the eight (8) methods from the interface should
+  be implemented using recursion. This will be graded based on at least sixteen (16)
+  JUnit test cases, each weighted equally. This is the same as
+  someone using the class based purely on the interface definition. If you implement 
+  the interface correctly, then you should pass the associated test cases. A spot
+  check will be performed by the grader to make sure that you actually impement the
+  methods using recursion and not some other method. If you do not use recursion, then
+  all test case points are forfeit. 
   
-  Some test cases are presented here with the skeleton project in
-  [`/src/test/java`](/src/test/java). You can run the test cases
-  with the following command:
-  ```
-  $ mvn test
-  ```
+* **(40 points) `cs1302.calc.IterativeMathOps`**: Implement the `cs1302.calc.MathOps`
+  interface with this class. Each of the eight (8) methods from the interface should
+  be implemented using iteration. This will be graded based on at least sixteen (16)
+  JUnit test cases, each weighted equally. This is the same as
+  someone using the class based purely on the interface definition. If you implement 
+  the interface correctly, then you should pass the associated test cases. A spot
+  check will be performed by the grader to make sure that you actually impement the
+  methods using iteration and not some other method. If you do not use iteration, then
+  all test case points are forfeit. 
 
 ### Non-Functional Requirements
 
