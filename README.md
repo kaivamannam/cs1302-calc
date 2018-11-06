@@ -42,6 +42,9 @@ If there has been an update and you have already cloned the project to Nike,
 then you can update your copy of the project using the <code>$ git pull</code>
 command while inside of your project directory.
 
+* **2018-11-06:** Added more detail to the "Implementation Restrictions" 
+  non-functional requirement.
+
 ## Project Description
 
 In this project, you will develop a "programmer's" calculator app in Java with 
