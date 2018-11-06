@@ -113,7 +113,8 @@ public class MathOpsEvaluator {
 
 	expression = expression.replaceAll("<<", "<")
 	    .replaceAll(">>", ">")
-	    .replaceAll("^^", "^");
+	    .replaceAll("\\^\\^", "^");
+	
 
 	String[] infix   = expression.split(" ");
 	String[] postfix = infixToPostfix(infix);
@@ -185,4 +186,5 @@ public class MathOpsEvaluator {
 
     } // evaluate
 
-} // ReversePolishNotation
+} // MathOpsEvaluator
+
