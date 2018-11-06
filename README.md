@@ -2,7 +2,7 @@
 
 ![?](https://www.maa.org/sites/default/files/images/cms_upload/abacus250457.jpg)
 
-**TUE 2018-11-27 (NOV 27) @ 11:55 PM EST**.
+**MON 2018-11-26 (NOV 26) @ 11:55 PM EST**.
 
 This document contains the description for the Calc App project
 assigned to the students in the Fall 2018 CSCI 1302 classes
