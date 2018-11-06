@@ -1,6 +1,6 @@
 # CSCI 1302 - Calc App v2018.fa
 
-![?](https://www.maa.org/sites/default/files/images/cms_upload/abacus250457.jpg)
+![CalcApp Mockup](https://imgur.com/kxpqNGV.png)
 
 **TUE 2018-11-27 (NOV 27) @ 11:55 PM EST**.
 
@@ -47,10 +47,7 @@ command while inside of your project directory.
 In this project, you will develop a "programer's" calculator app in Java with 
 a graphical user interface (GUI) powered by JavaFX. You will be responsible for 
 designing and implementing the user interface for your project (following a few 
-guidelines). Here is mockup of what your application might look like when
-completed.
-
-![CalcApp Mockup](https://imgur.com/kxpqNGV.png)
+guidelines). 
 
 ### What is a "Programmer's" Calculator?
 
