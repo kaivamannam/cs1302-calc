@@ -350,6 +350,26 @@ is probably not the best idea.
 
 Below are some frequently asked questions related to this project.
 
+1. **How should my calculator form an expression?**
+
+2. **How do I evaluate an expression?**
+
+   Expression evaluation is performed uing the `MathOpsEvaluator.evaluate` method.
+   Suppose you have an the following expression:
+   ```java
+   String expr = "2 + 12 / 2 - 3 !";
+   ```
+   This can be evaluated using a `MathOps` implementation as follows:
+   ```java
+   try {
+	      int result = MathOpsEvaluator.evaluate(basicMathOps, expr);
+       System.out.printf("%s = %d \n", expr, result);
+   } catch (Exception e) {
+	      System.err.println(e);
+       System.err.println("something went wrong!");
+  	} // try
+   ```
+
 Have a question? Please post it on the course Piazza.
 
 <hr/>
