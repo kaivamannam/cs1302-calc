@@ -402,8 +402,14 @@ Below are some frequently asked questions related to this project.
    integers, there is no reason to actually include the sign bit. However, the mockup creator
    included it because they wanted there to be visual symmetry in the most significant byte of the 
    bit toggle.
+   
+3. **How do I create an event handler for a mouse click with `setOnAction`?**
 
-3. **How do I pass around objects effectively?**
+   It is usually possible to explicitly set an event handler for a mouse clicks via a node's
+   [`setOnMouseClicked`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#setOnMouseClicked-javafx.event.EventHandler-)
+   method.
+
+4. **How do I pass around objects effectively?**
 
    From time to time, you may need to access one part of your app from another part of your app.
    You used a good design (e.g., classes and inheritance), but you find that you're passing a lot
