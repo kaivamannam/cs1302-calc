@@ -357,7 +357,14 @@ Below are some frequently asked questions related to this project.
    ```java
    String expr = "2 + 12 / 2 - 3 !";
    ```
-   This can be evaluated using a `MathOps` implementation as follows:
+   
+   Now suppose you have a `MathOps` implementation:
+   ```java
+   MathOps basicMathOps = new BasicMathOps();
+   ```
+   
+   Together, these can be used to evaluate the expression using the 
+   `MathOpsEvaluator.evaluate` method as follows:
    ```java
    try {
        int result = MathOpsEvaluator.evaluate(basicMathOps, expr);
@@ -367,6 +374,10 @@ Below are some frequently asked questions related to this project.
        System.err.println("something went wrong!");
    } // try
    ```
+   
+   Please note that the `BasicMathOps` implementation is provided only for testing
+   purposes. Your calculator should use `RecursiveMathOps` or `IterativeMathOps`
+   depending on the calculator's mode.
    
 2. **In the mockup, what does the "S" stand for?**
 
