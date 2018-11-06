@@ -1,6 +1,6 @@
 # CSCI 1302 - Calc App v2018.fa
 
-![CalcApp Mockup](https://imgur.com/kxpqNGV.png)
+![?](https://www.maa.org/sites/default/files/images/cms_upload/abacus250457.jpg)
 
 **TUE 2018-11-27 (NOV 27) @ 11:55 PM EST**.
 
@@ -49,6 +49,8 @@ a graphical user interface (GUI) powered by JavaFX. You will be responsible for
 designing and implementing the user interface for your project (following a few 
 guidelines). 
 
+![CalcApp Mockup](https://imgur.com/kxpqNGV.png)
+
 ### What is a "Programmer's" Calculator?
 
 There are four (4) characteristics that differentiate this app from a standard
@@ -70,11 +72,10 @@ calculator.
    [FAQ](#appendix---faq) for more details.
    
 2. **Implementation Toggle:** This "programmer's" calculator will provide a toggle
-   for three different underlying implementations of the `MathOps` interface, 
-   one of which is provided with the skeleton project. The three implementations 
-   are: basic, iterative, and recursive. This effectively provides three mutually 
-   exclusive modes for the calculator. The current mode dictates which implementation 
-   is passed to the code used for expression evaluation. See the
+   for two different underlying implementations of the `MathOps` interface. 
+   The two implementations are:iterative and recursive. This effectively provides two 
+   mutually exclusive modes for the calculator. The current mode dictates which implementation 
+   is passed to the code your application uses for expression evaluation. See the
    [FAQ](#appendix---faq) for more details.
 
 3. **Bit Toggle:** This "programmer's" calculator will display a sequence of
