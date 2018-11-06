@@ -164,7 +164,7 @@ The actual functionality is tested using test cases.
    result should change accordingly. See the
    [FAQ](#appendix---faq) for more details.
     
-* **(40 points) `cs1302.calc.RecursiveMathOps`**: Implement the `cs1302.calc.MathOps`
+* **(20 points) `cs1302.calc.RecursiveMathOps`**: Implement the `cs1302.calc.MathOps`
   interface with this class. Each of the eight (8) methods from the interface should
   be implemented using recursion. This will be graded based on at least sixteen (16)
   JUnit test cases, each weighted equally. This is the same as
@@ -174,7 +174,7 @@ The actual functionality is tested using test cases.
   methods using recursion and not some other method. If you do not use recursion, then
   all test case points are forfeit. 
   
-* **(40 points) `cs1302.calc.IterativeMathOps`**: Implement the `cs1302.calc.MathOps`
+* **(20 points) `cs1302.calc.IterativeMathOps`**: Implement the `cs1302.calc.MathOps`
   interface with this class. Each of the eight (8) methods from the interface should
   be implemented using iteration. This will be graded based on at least sixteen (16)
   JUnit test cases, each weighted equally. This is the same as
@@ -184,7 +184,12 @@ The actual functionality is tested using test cases.
   methods using iteration and not some other method. If you do not use iteration, then
   all test case points are forfeit. 
   
-
+* **(20 points) Expression Builder:** Your calculator needs to allow users
+  to successfully build and evaluate complex, multi-operaton expressions in a text field
+  by clicking on the buttons provided by the application. This will be graded based
+  on at least twenty (20) test cases, each weighted equally, one of which is provided 
+  in the mockup image near the top of this project description. 
+  
 * **Extra Credit 1 (5 points):** Add a "Help" menu to the menu bar. This menu
   should contain one menu item labeled "About" that displays an "About YOUR-NAME"
   window (where YOUR-NAME is replaced with your name). This window should
