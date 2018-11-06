@@ -368,7 +368,14 @@ Below are some frequently asked questions related to this project.
    } // try
    ```
    
-2. **How do I pass around objects effectively?**
+2. **In the mockup, what does the "S" stand for?**
+
+   That "S" represents the sign bit. Since this "programmer's" calculator only supports non-negative
+   integers, there is no reason to actually include the sign bit. However, the mockup creator
+   included it because they wanted there to be visual symmetry in the most significant byte of the 
+   bit toggle.
+
+3. **How do I pass around objects effectively?**
 
    From time to time, you may need to access one part of your app from another part of your app.
    You used a good design (e.g., classes and inheritance), but you find that you're passing a lot
