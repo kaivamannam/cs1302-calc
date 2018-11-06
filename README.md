@@ -47,7 +47,10 @@ command while inside of your project directory.
 In this project, you will develop a "programer's" calculator app in Java with 
 a graphical user interface (GUI) powered by JavaFX. You will be responsible for 
 designing and implementing the user interface for your project (following a few 
-guidelines). 
+guidelines). Here is mockup of what your application might look like when
+completed.
+
+![CalcApp Mockup](https://imgur.com/kxpqNGV.png)
 
 ### What is a "Programmer's" Calculator?
 
