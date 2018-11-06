@@ -49,6 +49,17 @@ a graphical user interface (GUI) powered by JavaFX. You will be responsible for
 designing and implementing the user interface for your project (following a few 
 guidelines). 
 
+This project is also designed to help you better understand the usefulness of good
+class design. While you can technically write your entire JavaFX-based
+GUI application entirely in the `start` method, this will make your code messy, 
+hard to read, possibly redundant, and likely more prone to errors.
+Before you write any code, you should plan out your application's scene graph
+(i.e., the containment hierarchy), and design custom components as needed.
+If you find that you are writing a lot of code related to a specific component
+(e.g., setting styling, adding event handlers, etc.), then it's probably 
+a good idea to make a custom version of that component in order to reduce
+clutter.
+
 ![CalcApp Mockup](https://imgur.com/kxpqNGV.png)
 
 ### What is a "Programmer's" Calculator?
@@ -100,8 +111,15 @@ There will be no partial credit for any of the requirements that simply
 require the presence of a method related a particular functionality. 
 The actual functionality is tested using test cases.
 
-* **(20 points) User Interface**: Your application needs to have the
-  following user interface components:
+* **(20 points) User Interface**: Your application needs to have the components 
+  listed below. They need to function as described. If a certain aspect of a component 
+  (e.g., style or behavior) is not specified in these requirements, then that
+  aspect is at the discretion of the implementor. The screenshot provided earlier 
+  in this project description is meant to serve as a reference. It is okay if
+  implementors deviate visually from screenshot. In addition to the required 
+  components, implementors should feel free to add more components and/or 
+  functionality as long they do not distract too heavily from the functionality
+  of the required components. Here are the required components:
   
   * **(5 points) Menu Bar**: Your application should have a menu bar
     with a "File" menu. The only required menu item is an "Exit" item
