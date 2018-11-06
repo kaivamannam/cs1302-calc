@@ -44,7 +44,7 @@ command while inside of your project directory.
 
 ## Project Description
 
-In this project, you will develop a "programer's" calculator app in Java with 
+In this project, you will develop a "programmer's" calculator app in Java with 
 a graphical user interface (GUI) powered by JavaFX. You will be responsible for 
 designing and implementing the user interface for your project (following a few 
 guidelines). 
@@ -91,7 +91,7 @@ calculator.
 ## Project Requirements & Grading
 
 This assignment is worth 100 points. The lowest possible grade is 0, and the 
-highest possible grade is 105 (due to extra credit).
+highest possible grade is 110 (due to extra credit).
 
 ### Functional Requirements
 
@@ -133,7 +133,7 @@ The actual functionality is tested using test cases.
       with an appropriate `MathOps` implementation corresponding to the
       current implementation mode.
       
-    * Backspace: Removes one non-whaitespace character from the current
+    * Backspace: Removes one non-whitespace character from the current
       expression, if applicable.
       
     * Clear: Clears the current expression.
