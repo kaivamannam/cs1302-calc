@@ -100,7 +100,9 @@ public class MathOpsEvaluator {
     } // infixToPostfix
 
     /**
-     * Evaluates a mathematical expression expressed in infix notation.
+     * Evaluates a mathematical expression expressed in infix notation. The
+     * expression must be trimmed and contain only a single whitespace between
+     * each operator and operand.
      *
      * @param impl an instance of a Math implementation
      * @param expression the mathematical expression in infix notation
