@@ -149,7 +149,9 @@ The actual functionality is tested using test cases.
     
     * Evaluate: Evaluates the expression using `MathOpsEvaluator` along
       with an appropriate `MathOps` implementation corresponding to the
-      current implementation mode.
+      current implementation mode. If `MathOpsEvaluator.evaluate` cannot
+      evaluate the expression, then your application should show an
+      application modal dialog with a user friendly error message. 
       
     * Backspace: Removes one non-whitespace character from the current
       expression, if applicable.
