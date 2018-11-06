@@ -172,7 +172,10 @@ The actual functionality is tested using test cases.
   the interface correctly, then you should pass the associated test cases. A spot
   check will be performed by the grader to make sure that you actually impement the
   methods using recursion and not some other method. If you do not use recursion, then
-  all test case points are forfeit. 
+  all test case points are forfeit. Each method may depend on other implemented
+  methods. Please note that this may have a cascading effect on the test cases for each
+  method. No special consideration will be made concerning double jeopardy and test
+  cases. Methods will be tested as they are provided upon submission. 
   
 * **(20 points) `cs1302.calc.IterativeMathOps`**: Implement the `cs1302.calc.MathOps`
   interface with this class. Each of the eight (8) methods from the interface should
@@ -182,7 +185,10 @@ The actual functionality is tested using test cases.
   the interface correctly, then you should pass the associated test cases. A spot
   check will be performed by the grader to make sure that you actually impement the
   methods using iteration and not some other method. If you do not use iteration, then
-  all test case points are forfeit. 
+  all test case points are forfeit. Each method may depend on other implemented
+  methods. Please note that this may have a cascading effect on the test cases for each
+  method. No special consideration will be made concerning double jeopardy and test
+  cases. Methods will be tested as they are provided upon submission. 
   
 * **(30 points) Expression Builder:** Your calculator needs to allow users
   to successfully build and evaluate complex, multi-operaton expressions in a text field
@@ -236,6 +242,20 @@ point total. That is, they are all or nothing.
 
   * `cs1302.calc.MathOps` (interface)
   * `cs1302.calc.MathOpsEvaluator` (class)
+
+* **(100 points) Implementation Restrictions:** Use of the following operators
+  is not allowed in student implementations of the `MathOps` interface:
+  
+  * `+`
+  * `-`
+  * `*`
+  * `/`
+  
+  Instead of using the operators above, student implementations should 
+  call the default methods `succ` (successor) and `pred` (predecessor) 
+  as well as other methods from the interface, as neeeded. Please note
+  that this may have a cascading effect on the test cases for each
+  method.
 
 * **(100 points) Development Environment:** This project must be implemented 
   in Java 8, and it *must compile and run* correctly on Nike using the specific
