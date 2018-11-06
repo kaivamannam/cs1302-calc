@@ -346,14 +346,6 @@ point total. That is, they are all or nothing.
   using in-line comments. This is especially necessary when a block of code
   is not immediately understood by a reader (e.g., yourself or the grader).
 
-### Grading
-
-This project will be graded using unit tests that will not be made available
-before the project deadline.  
-
-*TL;DR* - Do not modify the provided interfaces and classes; Follow naming 
-conventions. **If not, then your project will not be graded.**
-
 ## How to Download the Project
 
 On Nike, execute the following terminal command in order to download the project
