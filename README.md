@@ -134,7 +134,7 @@ The actual functionality is tested using test cases.
     buttons for the numbers zero (0) through (9), an implementation
     toggle, as well as a button for each of the operations listed below.
     The name of each operation is provided as well as the symbol(s)
-    used to denote that operation in an expression.:
+    used to denote that operation in an expression.
 
     * Add (`+`)
     * Subtract (`-`)
