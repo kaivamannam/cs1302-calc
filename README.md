@@ -130,7 +130,7 @@ The actual functionality is tested using test cases.
     as the user interacts with the buttons and one where the result is
     places when the user clicks on the "Evaluate" button..
 
-  * **(5 points) Calculator Buttons**: Your application needs to have
+  * **(10 points) Calculator Buttons**: Your application needs to have
     buttons for the numbers zero (0) through (9), an implementation
     toggle, as well as a button for each of the operations listed below.
     The name of each operation is provided as well as the symbol(s)
@@ -156,7 +156,7 @@ The actual functionality is tested using test cases.
       
     * Clear: Clears the current expression.
     
-  * **(5 points) Bit Toggle:** your application needs display a sequence of
+  * **(10 points) Bit Toggle:** your application needs display a sequence of
    clickable bits in standard order (i.e., most significant to least significant)
    that shows the current binary representation of the result. When the result
    changes, the visible binary should also change. Furthermore, the user should
@@ -184,10 +184,10 @@ The actual functionality is tested using test cases.
   methods using iteration and not some other method. If you do not use iteration, then
   all test case points are forfeit. 
   
-* **(20 points) Expression Builder:** Your calculator needs to allow users
+* **(30 points) Expression Builder:** Your calculator needs to allow users
   to successfully build and evaluate complex, multi-operaton expressions in a text field
   by clicking on the buttons provided by the application. This will be graded based
-  on at least twenty (20) test cases, each weighted equally, one of which is provided 
+  on at least thirty (30) test cases, each weighted equally, one of which is provided 
   in the mockup image near the top of this project description. 
   
 * **Extra Credit 1 (5 points):** Add a "Help" menu to the menu bar. This menu
