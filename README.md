@@ -350,9 +350,7 @@ is probably not the best idea.
 
 Below are some frequently asked questions related to this project.
 
-1. **How should my calculator form an expression?**
-
-2. **How do I evaluate an expression?**
+1. **How do I evaluate an expression?**
 
    Expression evaluation is performed uing the `MathOpsEvaluator.evaluate` method.
    Suppose you have an the following expression:
@@ -362,13 +360,33 @@ Below are some frequently asked questions related to this project.
    This can be evaluated using a `MathOps` implementation as follows:
    ```java
    try {
-	      int result = MathOpsEvaluator.evaluate(basicMathOps, expr);
+       int result = MathOpsEvaluator.evaluate(basicMathOps, expr);
        System.out.printf("%s = %d \n", expr, result);
    } catch (Exception e) {
-	      System.err.println(e);
+       System.err.println(e);
        System.err.println("something went wrong!");
-  	} // try
+   } // try
    ```
+   
+2. **How do I pass around objects effectively?**
+
+   From time to time, you may need to access one part of your app from another part of your app.
+   You used a good design (e.g., classes and inheritance), but you find that you're passing a lot
+   of reference variales around, perhaps through constructors. If it were one or two variables, 
+   then it would not be a big deal. However, you are likely reading this question because you
+   are passing a lot of variables around. Your first thought might be to make those variables 
+   static, but that is not good for a couple different reasons--recall what it means for
+   a variable to be static as well as the non-functional requirements for this project.
+   
+   The reccommended strategy is to add all those variables to your driver class as instance variables
+   with getters and setters, then pass a reference to your driver object around as needed.
+   This way, you are only passing around one variable instead of many! In the other parts of your
+   app, simply call on the getter and setters methods to access and change the things you 
+   were previously passing around.
+   
+   Remember, if you are currently in your driver class's `start` method, then you can pass
+   a reference to the current driver object into a method using the `this` reference
+   variable. 
 
 Have a question? Please post it on the course Piazza.
 
