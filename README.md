@@ -165,6 +165,23 @@ The actual functionality is tested using test cases.
   check will be performed by the grader to make sure that you actually impement the
   methods using iteration and not some other method. If you do not use iteration, then
   all test case points are forfeit. 
+  
+
+* **Extra Credit 1 (5 points):** Add a "Help" menu to the menu bar. This menu
+  should contain one menu item labeled "About" that displays an "About YOUR-NAME"
+  window (where YOUR-NAME is replaced with your name). This window should
+  contain an image of you as well as your name, email, and the version number
+  for your application (version can be whatever you want). This window should
+  be *application modal*, and it should be closable so that the user can return
+  to the main part of the application. If you are doing both of the extra
+  credit requirements, then please make the "Help" menu the right-most menu
+
+* **Extra Credit 2 (5 points):** Add a "Theme" menu to the menu bar that lets
+  the user switch between different stylings for the application. In order to
+  receive points for this requirement, you should support at least one theme
+  in addition to your application's default theme. HINT: You may want to explore
+  having muliple CSS files for your application and loading/applying them as
+  needed to facilitate this requirement.
 
 ### Non-Functional Requirements
 
