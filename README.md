@@ -430,9 +430,16 @@ Below are some frequently asked questions related to this project.
 
    It is usually possible to explicitly set an event handler for a mouse click via a node's
    [`setOnMouseClicked`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#setOnMouseClicked-javafx.event.EventHandler-)
-   method.
+   method. This might be useful for making the bits in your bit toggle clickable if they are
+   not buttons. 
+   
+4. **In the mockup, how is the implementation toggle implemented?**
 
-4. **How do I pass around objects effectively?**
+   In the mockup, when a user clicks on the "Recursion" button, suqare brackets are added to the 
+   button text to indicate that the calculator is in recursion mode. The same thing would be done
+   with the "Iteration" button for iteration mode.
+
+5. **How do I pass around objects effectively?**
 
    From time to time, you may need to access one part of your app from another part of your app.
    You used a good design (e.g., classes and inheritance), but you find that you're passing a lot
