@@ -252,7 +252,7 @@ point total. That is, they are all or nothing.
   * `-`
   * `*`
   * `/`
-  * '<<`
+  * `<<`
   * `>>`
   
   Instead of using the operators above, student implementations should 
