@@ -405,7 +405,7 @@ Below are some frequently asked questions related to this project.
    
 3. **How do I create an event handler for a mouse click with `setOnAction`?**
 
-   It is usually possible to explicitly set an event handler for a mouse clicks via a node's
+   It is usually possible to explicitly set an event handler for a mouse click via a node's
    [`setOnMouseClicked`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#setOnMouseClicked-javafx.event.EventHandler-)
    method.
 
