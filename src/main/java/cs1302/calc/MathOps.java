@@ -47,7 +47,7 @@ public interface MathOps {
     } // dec
 
     /**
-     * Returns the result of the addition operation <code>lhs + rhs</code>.
+     * Returns the result of the addition operation.
      *
      * @param lhs the first operand
      * @param rhs the second operand
@@ -56,7 +56,7 @@ public interface MathOps {
     public int add(int lhs, int rhs);
 
     /**
-     * Returns the result of the subtraction operation <code>lhs - rhs</code>.
+     * Returns the result of the subtraction operation.
      *
      * @param lhs the first operand
      * @param rhs the second operand
@@ -65,7 +65,7 @@ public interface MathOps {
     public int sub(int lhs, int rhs);
 
     /**
-     * Returns the result of the binary multiplication operation "lhs * rhs"
+     * Returns the result of the binary multiplication.
      *
      * @param lhs the first operand
      * @param rhs the second operand
@@ -74,7 +74,7 @@ public interface MathOps {
     public int mul(int lhs, int rhs);
 
     /**
-     * Returns the result of the division operation 
+     * Returns the result of the division operation.
      * <code>lhs / rhs</code>.
      *
      * @param lhs the first operand
@@ -85,7 +85,7 @@ public interface MathOps {
     public int div(int lhs, int rhs) throws ArithmeticException;
 
     /**
-     * Returns the result of the factorial operation <code>num !</code>. 
+     * Returns the result of the factorial operation.
      *
      * @param num the operand
      * @return the result of the operation
@@ -103,7 +103,7 @@ public interface MathOps {
     public int pow(int lhs, int rhs);
 
     /**
-     * Returns the result of the left-shift operation <code>lhs << rhs</code>. 
+     * Returns the result of the left-shift operation.
      *
      * @param lhs the first operand
      * @param rhs the second operand
@@ -112,7 +112,7 @@ public interface MathOps {
     public int lshift(int lhs, int rhs);
 
     /**
-     * Returns the result of the right-shift operation <code>lhs >> rhs</code>. 
+     * Returns the result of the right-shift operation.
      *
      * @param lhs the first operand
      * @param rhs the second operand

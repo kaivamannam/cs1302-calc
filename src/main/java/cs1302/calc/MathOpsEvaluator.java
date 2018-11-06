@@ -103,7 +103,7 @@ public class MathOpsEvaluator {
      * Evaluates a mathematical expression expressed in infix notation.
      *
      * @param impl an instance of a Math implementation
-     * @param postfix the mathematical expression in postfix notation
+     * @param expression the mathematical expression in infix notation
      * @return the result of evaluating the expression
      * @throws StackOverflowError if a stack overflow occurs
      * @throws ArithmeticException if an arithmetic exception occurs
