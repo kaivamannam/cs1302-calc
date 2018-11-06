@@ -252,16 +252,18 @@ point total. That is, they are all or nothing.
   * `-`
   * `*`
   * `/`
+  * '<<`
+  * `>>`
   
   Instead of using the operators above, student implementations should 
   call the default methods `succ` (successor) and `pred` (predecessor) 
   as well as other methods from the interface, as neeeded. Please note
   that this may have a cascading effect on the test cases for each
-  method.
-  
-  Alternatives to the `succ` (successor) and `pred` (predecessor) default 
+  method. Alternatives to the `succ` (successor) and `pred` (predecessor) default 
   methods are provided by the `inc` (increment) and `dec` (decrement) default
   methods for those who prefer to use them.
+  
+  Use of `java.lang.Math` is also prohibited. 
 
 * **(100 points) Development Environment:** This project must be implemented 
   in Java 8, and it *must compile and run* correctly on Nike using the specific
