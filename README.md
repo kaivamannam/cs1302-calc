@@ -110,7 +110,7 @@ calculator.
    
 2. **Implementation Toggle:** This "programmer's" calculator will provide a toggle
    for two different underlying implementations of the `MathOps` interface. 
-   The two implementations are:iterative and recursive. This effectively provides two 
+   The two implementations are: iterative and recursive. This effectively provides two 
    mutually exclusive modes for the calculator. The current mode dictates which implementation 
    is passed to the code your application uses for expression evaluation. See the
    [FAQ](#appendix---faq) for more details.
