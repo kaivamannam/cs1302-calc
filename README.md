@@ -65,6 +65,24 @@ clutter.
 
 ![CalcApp Mockup](https://imgur.com/kxpqNGV.png)
 
+### Some Notes about the Mockup Image
+
+* The bit toggle is made up of 32 `Text`-like objects. Consider making a `Bit` 
+  class that extends `Text`.
+  
+* The bits in the bit toggle were not hard coded. The designer used a loop.
+
+* `Text` objects can be made clickable by using 
+  [`setOnMouseClicked`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/Node.html#setOnMouseClicked-javafx.event.EventHandler-).
+  
+* The "S" in the bit toggle stands for the sign bit and is not intended to 
+  be clickable since this app only operates on non-negative integers. 
+  It's actual value would be 0. 
+  
+* The button colors were chosen from the list of official 
+  [UGA brand colors](https://brand.uga.edu/color). However, their use 
+  probably does not conform to the branding guidelines. 
+
 ### What is a "Programmer's" Calculator?
 
 There are four (4) characteristics that differentiate this app from a standard
@@ -460,7 +478,8 @@ Below are some frequently asked questions related to this project.
 
    In the mockup, when a user clicks on the "Recursion" button, suqare brackets are added to the 
    button text to indicate that the calculator is in recursion mode. The same thing would be done
-   with the "Iteration" button for iteration mode.
+   with the "Iteration" button for iteration mode. You are free to implement this behavior however
+   you want as long as it is very clear to the user. 
 
 5. **How do I pass around objects effectively?**
 
