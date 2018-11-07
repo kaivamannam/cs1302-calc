@@ -126,7 +126,7 @@ calculator.
 ## Project Requirements & Grading
 
 This assignment is worth 100 points. The lowest possible grade is 0, and the 
-highest possible grade is 110 (due to extra credit).
+highest possible grade is 115 (due to extra credit).
 
 ### Functional Requirements
 
@@ -237,6 +237,15 @@ The actual functionality is tested using test cases.
   in addition to your application's default theme. HINT: You may want to explore
   having muliple CSS files for your application and loading/applying them as
   needed to facilitate this requirement.
+  
+* **Extra Credit 2 (5 points):** Add a "Window" menu to the menu bar with a 
+  single menu item that lets the user hide or show the bit toggle. If the bit 
+  toggle is currently being displayed, then the text on the menu item should
+  be "Show Bit Toggle" and function accordingly. If the bit toggle is not
+  currently being displayed, then the text on the menu item should be
+  "Hide Bit Toggle" and function accordingly. The application's `Stage` should
+  resize accordingly to accomodate the changes facilitated by this menu
+  item.
 
 ### Non-Functional Requirements
 
@@ -487,7 +496,13 @@ Below are some frequently asked questions related to this project.
    with the "Iteration" button for iteration mode. You are free to implement this behavior however
    you want as long as it is very clear to the user. 
 
-5. **How do I pass around objects effectively?**
+5. **How do implement bit shifting using recursion and/or iteration?**
+
+   The _left shift_ and _right shift_ operations can be interpreted as repeated integer 
+   multiplication and division, respectively, by two. Their problem decomposition is very 
+   similar in form to the problem decomposition for exponentiation.
+
+6. **How do I pass around objects effectively?**
 
    From time to time, you may need to access one part of your app from another part of your app.
    You used a good design (e.g., classes and inheritance), but you find that you're passing a lot
