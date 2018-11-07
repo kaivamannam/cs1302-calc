@@ -238,7 +238,7 @@ The actual functionality is tested using test cases.
   having muliple CSS files for your application and loading/applying them as
   needed to facilitate this requirement.
   
-* **Extra Credit 2 (5 points):** Add a "Window" menu to the menu bar with a 
+* **Extra Credit 3 (5 points):** Add a "Window" menu to the menu bar with a 
   single menu item that lets the user hide or show the bit toggle. If the bit 
   toggle is currently being displayed, then the text on the menu item should
   be "Show Bit Toggle" and function accordingly. If the bit toggle is not
