@@ -441,6 +441,9 @@ Below are some frequently asked questions related to this project.
    ```java
    String expr = "2 + 12 / 2 - 3 !";
    ```
+   It is *very important* that the string containing the expression is trimmed
+   (i.e., no leading or trailing whitespace) and contains only a single space
+   between operators and operands.
    
    Now suppose you have a `MathOps` implementation:
    ```java
