@@ -28,6 +28,7 @@ public class MathOpsEvaluator {
 	pMap.put("^", 3);
 	pMap.put("!", 4);
 	precedenceMap = Collections.unmodifiableMap(pMap);
+
     } // static
 
     /** 
